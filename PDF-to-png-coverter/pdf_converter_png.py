@@ -5,7 +5,7 @@ print("Bienvenido al convertidor de PDF a PNG :3 \n")
 
 nombre_del_pdf = str(input("Digite el nombre del PDF sin la extención: ")+".pdf")
 nombre_de_salida = str(input("Digite el nombre de salida del archivo sin la extención: ")+".png")
-resolucion = 2000
+resolucion = 1000
 
 # Crea una carpeta con el nombre del archivo PDF
 nombre_de_carpeta = os.path.splitext(nombre_del_pdf)[0]
