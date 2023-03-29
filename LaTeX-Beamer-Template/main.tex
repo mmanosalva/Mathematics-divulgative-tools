@@ -1,0 +1,85 @@
+\documentclass[aspectratio=88,xcolor=dvipsnames,10pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{multirow,rotating}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{transparent}
+\usepackage{tikz-cd}
+\usepackage{array}
+\usepackage{algpseudocode}
+\usepackage{siunitx}
+\usepackage{algorithm}
+\usepackage{mathtools,nccmath}%
+\usepackage{etoolbox, xparse} 
+\usetheme{Madrid}
+\usepackage{xcolor}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+\usepackage{amsfonts}
+
+\newcommand{\iu}{{i\mkern1mu}}
+
+% set color
+\definecolor{DarkBlue}{rgb}{0.04706, 0.13725, 0.26667} 
+\definecolor{cadmiumred}{rgb}{0.45 , 0.12, 0.23}
+\definecolor{armygreen}{rgb}{0.10, 0.29, 0.19}
+\definecolor{lilac}{rgb}{0.33, 0.12, 0.36}
+\definecolor{negro}{rgb}{0, 0, 0.}
+
+\usecolortheme[named=DarkBlue]{structure}
+
+\setbeamercolor{block title}{bg=DarkBlue!100!white,fg=white}
+
+  \setbeamercolor{block body}{bg=DarkBlue!11!white}
+
+
+
+
+
+
+%------------------------------------------------------------
+
+\setbeamerfont{title}{size=\large}
+\setbeamerfont{subtitle}{size=\small}
+\setbeamerfont{author}{size=\small}
+\setbeamerfont{date}{size=\footnotesize}
+\setbeamerfont{institute}{size=\footnotesize}
+\title[Mateo Manosalva Amaris]{UNAL}%title
+%\subtitle{ }%%subtitle
+\author[UNAL]{Roll Tide\inst{1} and Crimson Ride\inst{1}}%%authors
+
+\date[\textcolor{white}{2023}]
+
+\usebackgroundtemplate{%             declare it
+\tikz[overlay,remember picture] \node[opacity=0.16, at=(current page.center)] {
+   \includegraphics[height=7.7cm,width=7.7cm]{BlueGraph.png}};
+}
+
+\begin{document}
+
+\begin{frame}{This is the title}
+\large \justifying
+
+\begin{block}{This is a block}
+
+You can write whatever you want here, theorems, corollaries, etc.
+
+\end{block}
+
+You can add images, examples, or anything you want depending on what you want to convey.\vspace{0.5cm}
+
+The idea is to have a unique writing style.
+\end{frame}
+
+
+
+
+
+\end{document}
+
+
+
+
