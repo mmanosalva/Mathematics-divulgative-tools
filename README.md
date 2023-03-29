@@ -30,5 +30,6 @@ We started using Beamer in LaTeX. Beamer is clearly not made for uploading conte
 
   I won't explain how the program's interface works because we made it as user-friendly as possible. Just make sure that the PDF is in the same folder as the .py file.
 
+(Actually we are using 1000 ppp for the converter, you can change that value from the .py script).
 
 
